@@ -1,15 +1,15 @@
 # Trabalho_Final_Estrutura_de_Dados_Nirton
 Trabalho final da matéria de estrutura de dados.
 
-## Link do Video no YouTube
+## LINK DO VIDEO NO YOUTUBE
 
-## Integrantes
+## INTEGRANTES
 * Guilherme Luis Paixão Costa
 * Guilherme Freire 
 * Glebson Santana
 *Landidaracy Mota Azevedo
 
-## Turma
+## TURMA
 
 Turma C
 

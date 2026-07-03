@@ -42,10 +42,6 @@ void limparBuffer() {
     while ((c = getchar()) != '\n' && c != EOF);
 }
 
-// ==========================================
-// FUNCOES DE ARQUIVO (CSV)
-// ==========================================
-
 void salvarCSV(Pilha *p) {
     FILE *arquivo = fopen(ARQUIVO_CSV, "w");
     if (arquivo == NULL) {
@@ -55,7 +51,7 @@ void salvarCSV(Pilha *p) {
 
     fprintf(arquivo, "id,remetente,assunto,data\n");
 
-    // Salva a partir da base (0) ate o topo para manter a ordem correta na pilha ao recarregar
+    
     for (int i = 0; i <= p->topo; i++) {
         fprintf(arquivo, "%d,%s,%s,%s\n", 
                 p->emails[i].id, p->emails[i].remetente, p->emails[i].assunto, p->emails[i].data);
@@ -101,10 +97,6 @@ void carregarCSV(Pilha *p) {
     fclose(arquivo);
     printf("[ARQUIVO] %d registros carregados do arquivo CSV!\n", p->topo + 1);
 }
-
-// ==========================================
-// OPERACOES DA PILHA
-// ==========================================
 
 void receberEmail(Pilha *p) {
     if(cheia(p)) {
@@ -236,9 +228,6 @@ void marcarComoLido(Pilha *p) {
     }
 }
 
-// ==========================================
-// FUNCAO PRINCIPAL / MENU
-// ==========================================
 int main() {
     Pilha caixa;
     inicializar(&caixa);

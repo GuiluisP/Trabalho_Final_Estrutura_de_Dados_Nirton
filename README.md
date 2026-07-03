@@ -2,6 +2,7 @@
 Trabalho final da matéria de estrutura de dados.
 
 ## LINK DO VIDEO NO YOUTUBE
+* https://youtu.be/6b9EwCvvQWo
 
 ## INTEGRANTES
 * Guilherme Luis Paixão Costa

@@ -24,6 +24,10 @@ Turma C
 
 * O programa do trabalho C gerencia os trabalhos enviados a uma impressora dividindo-os em duas políticas de atendimento: uma Fila Normal Simples e uma Fila Prioritária Circular. Cada documento cadastrado possui identificação própria, número de páginas e seu respectivo tipo ('N' ou 'P').
 
+## COMPILAÇÃO E EXECUÇÃO
+
+*Recomenda-se que os arquivos no formato .c dos projetos sejam compilados em um ambiente de desenvolvimento integrado (IDE) que seja compatível com um compilador da linguagem C, tais como Visual Studio Code  ou GDB Online.
+
 ## OBSERVAÇÕES
 
 *Os codigos criam arquivos csv ao serem executados pela primeira vez

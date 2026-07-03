@@ -7,7 +7,7 @@ Trabalho final da matéria de estrutura de dados.
 * Guilherme Luis Paixão Costa
 * Guilherme Freire 
 * Glebson Santana
-*Landidaracy Mota Azevedo
+* Landidaracy Mota Azevedo
 
 ## TURMA
 
